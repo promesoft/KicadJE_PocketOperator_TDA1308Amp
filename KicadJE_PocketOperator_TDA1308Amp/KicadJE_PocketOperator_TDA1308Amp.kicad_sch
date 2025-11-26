@@ -5,6 +5,219 @@
 	(uuid "c807aa2c-af39-4a92-819a-240782d3edd9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "AJ_2025:TDA_1308_PCB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.08 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TDA_1308_PCB_1_1"
+				(text_box "TDA1308\n"
+					(at -10.16 7.62 0)
+					(size 20.32 -16.51)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left top)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "L_In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "R_In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "L_Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "R_Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:AudioJack3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1481,6 +1694,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 33.02) (xy 87.63 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0853e322-e3eb-4ef4-acd3-aeeebb82812f")
+	)
+	(wire
+		(pts
 			(xy 50.8 26.67) (xy 50.8 43.18)
 		)
 		(stroke
@@ -1498,6 +1721,16 @@
 			(type default)
 		)
 		(uuid "15734a39-4794-4260-a2bb-fc6901d27609")
+	)
+	(wire
+		(pts
+			(xy 100.33 45.72) (xy 87.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c144d0d-9883-4fae-94da-e7218dbe61fa")
 	)
 	(wire
 		(pts
@@ -1611,6 +1844,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 58.42) (xy 87.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a4cea0-e841-4c43-9690-8b5bd8b7d7d0")
+	)
+	(wire
+		(pts
+			(xy 100.33 26.67) (xy 87.63 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aba8364-1cfd-4b68-8272-f135d31e4925")
+	)
+	(wire
+		(pts
 			(xy 248.92 31.75) (xy 231.14 31.75)
 		)
 		(stroke
@@ -1678,6 +1931,26 @@
 			(type default)
 		)
 		(uuid "c438fb09-cd59-4f19-bda1-912d64ce831e")
+	)
+	(wire
+		(pts
+			(xy 100.33 39.37) (xy 87.63 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49a5d19-267d-4960-947d-7bb88b149ca1")
+	)
+	(wire
+		(pts
+			(xy 100.33 52.07) (xy 87.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c8ad43-fed6-4bac-8a00-e43c1f770f84")
 	)
 	(wire
 		(pts
@@ -1751,88 +2024,88 @@
 	)
 	(global_label "Out1L"
 		(shape input)
-		(at 90.17 93.98 0)
+		(at 90.17 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "06647f57-a63d-414e-a4ba-a4543fbad8ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.598 93.98 0)
+			(at 81.742 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "In2R"
 		(shape input)
-		(at 91.44 53.34 0)
+		(at 87.63 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "13214f9b-3444-447c-b0c7-26b617816db7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.6585 53.34 0)
+			(at 80.4115 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "In3L"
 		(shape input)
-		(at 91.44 62.23 0)
+		(at 87.63 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "182d4370-7df5-49aa-9a52-02356d05478b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4166 62.23 0)
+			(at 80.6534 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Out3L"
 		(shape input)
-		(at 90.17 106.68 0)
+		(at 90.17 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1fbadf8f-9964-4437-ae95-035e2fc747c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.598 106.68 0)
+			(at 81.742 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1861,44 +2134,44 @@
 	)
 	(global_label "In3R"
 		(shape input)
-		(at 91.44 59.69 0)
+		(at 87.63 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "26ef6a48-2c8e-4a1a-ae56-4490814dc4cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.6585 59.69 0)
+			(at 80.4115 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "In1R"
 		(shape input)
-		(at 91.44 46.99 0)
+		(at 87.63 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2a26d2d7-df4e-4e09-a2fd-b7097787972c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.6585 46.99 0)
+			(at 80.4115 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1949,22 +2222,22 @@
 	)
 	(global_label "In2L"
 		(shape input)
-		(at 91.44 55.88 0)
+		(at 87.63 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "41445bbf-c984-478d-82e8-942623dedac8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4166 55.88 0)
+			(at 80.6534 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2015,22 +2288,22 @@
 	)
 	(global_label "Out1R"
 		(shape input)
-		(at 90.17 91.44 0)
+		(at 90.17 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5f6fcb2b-0e80-4cfc-a67c-c0f53c8f74fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.8399 91.44 0)
+			(at 81.5001 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2059,22 +2332,22 @@
 	)
 	(global_label "Out3R"
 		(shape input)
-		(at 90.17 104.14 0)
+		(at 90.17 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7c47c6f8-27b7-4697-891c-c2cc0515af73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.8399 104.14 0)
+			(at 81.5001 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2125,22 +2398,22 @@
 	)
 	(global_label "Out2R"
 		(shape input)
-		(at 90.17 97.79 0)
+		(at 90.17 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b40ea187-a68b-49d2-a960-202d2d57ea5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.8399 97.79 0)
+			(at 81.5001 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2191,44 +2464,44 @@
 	)
 	(global_label "In1L"
 		(shape input)
-		(at 91.44 49.53 0)
+		(at 87.63 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "be3d143b-4c14-4d85-9e8e-6a86bce11e3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4166 49.53 0)
+			(at 80.6534 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Out2L"
 		(shape input)
-		(at 90.17 100.33 0)
+		(at 90.17 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dd361c1f-ad5a-4844-8985-13feb2c32ce3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.598 100.33 0)
+			(at 81.742 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2274,6 +2547,73 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0632b161-0aa8-46db-9914-ec6dbc3aab96")
+		(property "Reference" "C104"
+			(at 99.822 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 107.188 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 107.95 38.4048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2233b74b-685c-4656-8ea9-2dd93f8f2850")
+		)
+		(pin "2"
+			(uuid "fc303c18-9c1e-4590-8e87-773e7bfe2907")
+		)
+		(instances
+			(project "KicadJE_PocketOperator_TDA1308Amp"
+				(path "/c807aa2c-af39-4a92-819a-240782d3edd9"
+					(reference "C104")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2346,6 +2686,94 @@
 		)
 	)
 	(symbol
+		(lib_id "AJ_2025:TDA_1308_PCB")
+		(at 162.56 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1590c29f-9f55-4faf-8dc7-850d273c727b")
+		(property "Reference" "U101"
+			(at 164.7033 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 164.7033 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AJ_2025_Library:TDA1308_PCB"
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "17e9cc02-bf99-4231-8594-436a89bfca33")
+		)
+		(pin "8"
+			(uuid "d8fbdfd1-673d-47ff-b2ef-73a589fb019b")
+		)
+		(pin "1"
+			(uuid "679bb6be-2797-47a2-ade2-a1100e74a94f")
+		)
+		(pin "4"
+			(uuid "c86d1a5f-8e23-48fe-86c1-909aaa157fe2")
+		)
+		(pin "5"
+			(uuid "cf951c59-375d-4045-acfb-45b5d8945b96")
+		)
+		(pin "6"
+			(uuid "ddd60b94-33f3-436d-8a3c-8dfc12684f60")
+		)
+		(pin "3"
+			(uuid "18ec1b48-e8fb-4f05-ac0b-61ea8789907d")
+		)
+		(pin "2"
+			(uuid "d23cb38a-2779-49f2-9c8b-c5d92a8dd04e")
+		)
+		(instances
+			(project ""
+				(path "/c807aa2c-af39-4a92-819a-240782d3edd9"
+					(reference "U101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery")
 		(at 231.14 41.91 0)
 		(unit 1)
@@ -2410,6 +2838,73 @@
 			(project ""
 				(path "/c807aa2c-af39-4a92-819a-240782d3edd9"
 					(reference "BT101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3177af11-74ef-4738-b136-bfc9c7c13436")
+		(property "Reference" "C103"
+			(at 99.822 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 107.442 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 107.95 32.0548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6ce316b-5f8d-4c16-ac49-47b2d2dba326")
+		)
+		(pin "2"
+			(uuid "7d37f5bb-cf57-4a72-b876-7ef9100f78b1")
+		)
+		(instances
+			(project "KicadJE_PocketOperator_TDA1308Amp"
+				(path "/c807aa2c-af39-4a92-819a-240782d3edd9"
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -2495,6 +2990,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 104.14 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "465ad184-ef72-4849-b7d3-3a60a44fbee3")
+		(property "Reference" "C105"
+			(at 99.822 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 107.442 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 107.95 44.7548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9b1410e-dc2c-482c-8e19-84a82a42fae4")
+		)
+		(pin "2"
+			(uuid "61d94745-a34d-4341-aa5e-49acb4bee30f")
+		)
+		(instances
+			(project "KicadJE_PocketOperator_TDA1308Amp"
+				(path "/c807aa2c-af39-4a92-819a-240782d3edd9"
+					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 59.69 0)
 		(unit 1)
@@ -2555,6 +3117,73 @@
 			(project ""
 				(path "/c807aa2c-af39-4a92-819a-240782d3edd9"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ce9d86f-a584-48d6-9a72-cd48120eadb6")
+		(property "Reference" "C107"
+			(at 99.822 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 107.442 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 107.95 57.4548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd7b273e-0da9-471e-a571-9daf153dad49")
+		)
+		(pin "2"
+			(uuid "9a3a833e-31ec-4546-bef9-805e895a9110")
+		)
+		(instances
+			(project "KicadJE_PocketOperator_TDA1308Amp"
+				(path "/c807aa2c-af39-4a92-819a-240782d3edd9"
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -3052,6 +3681,205 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 162.56 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d5a8dd5-cddc-4f88-bc51-c0ed244dd72e")
+		(property "Reference" "#PWR0106"
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "610e46b1-be52-4092-8e2a-f6b75744a5ed")
+		)
+		(instances
+			(project "KicadJE_PocketOperator_TDA1308Amp"
+				(path "/c807aa2c-af39-4a92-819a-240782d3edd9"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9516b2e-000b-40ac-93ce-ed5210d65bda")
+		(property "Reference" "C106"
+			(at 99.822 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 107.188 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 107.95 51.1048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65930ccf-0248-4849-ae5c-d7d7a452891f")
+		)
+		(pin "2"
+			(uuid "aeb25862-aebc-4c04-a876-e6cd9108ca26")
+		)
+		(instances
+			(project "KicadJE_PocketOperator_TDA1308Amp"
+				(path "/c807aa2c-af39-4a92-819a-240782d3edd9"
+					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V8")
+		(at 162.56 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af8d8e92-3c1f-4388-9d7c-87c7103cc7d5")
+		(property "Reference" "#PWR0107"
+			(at 162.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V8"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V8\""
+			(at 162.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab591954-c49a-4211-9b65-9ca9dfa1b225")
+		)
+		(instances
+			(project "KicadJE_PocketOperator_TDA1308Amp"
+				(path "/c807aa2c-af39-4a92-819a-240782d3edd9"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 50.8 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3118,34 +3946,31 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 54.61 0)
+		(at 104.14 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c090d767-ed76-41ac-bac1-617f183b5919")
 		(property "Reference" "C102"
-			(at 121.92 53.3399 0)
+			(at 99.822 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10u"
-			(at 121.92 55.8799 0)
+			(at 107.188 24.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 119.0752 58.42 0)
+			(at 107.95 25.7048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 54.61 0)
+			(at 104.14 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +3988,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 54.61 0)
+			(at 104.14 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
