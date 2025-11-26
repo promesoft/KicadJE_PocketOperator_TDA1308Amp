@@ -1,4 +1,144 @@
-26715381833602098
+26751861633132361
+AJ_2025_Library
+2x08 IDC Eurorack_AJ
+Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole vertical IDC box header THT 2x08 2.54mm double row
+0
+16
+16
+AJ_2025_Library
+AJ_MountingHole_2.5mm
+Mounting Hole 2.5mm, no annular
+mounting hole 2.5mm no annular
+0
+0
+0
+AJ_2025_Library
+AJ_TestPoint_THTPad_D1.5mm_Drill0.7mm
+THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm
+test point THT pad
+0
+1
+1
+AJ_2025_Library
+BatteryHolder_1xAA
+https://www.keyelco.com/product-pdf.cfm?p=1025
+AA battery cell holder
+0
+2
+2
+AJ_2025_Library
+C_0805_AJ
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+AJ_2025_Library
+D_0805_AJ
+Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode handsolder
+0
+2
+2
+AJ_2025_Library
+ESP32-C3-Supermini
+
+
+0
+16
+16
+AJ_2025_Library
+ESP32-C3-Supermini_revA
+
+
+0
+0
+0
+AJ_2025_Library
+ESP32-S2
+
+
+0
+32
+32
+AJ_2025_Library
+Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+AJ_2025_Library
+Jack_3.5mm_PJ398SM
+TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
+WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
+0
+3
+3
+AJ_2025_Library
+Johansen_engineering_logo_15mm
+
+
+0
+0
+0
+AJ_2025_Library
+Johansen_engineering_logo_20mm
+
+
+0
+0
+0
+AJ_2025_Library
+Johansen_engineering_logo_25mm_front_neg5
+
+
+0
+0
+0
+AJ_2025_Library
+Johansen_engineering_soldermask_20mm
+
+
+0
+0
+0
+AJ_2025_Library
+MountingHole_Eurorack
+Mounting Hole 6.5mm, no annular
+mounting hole 6.5mm no annular
+0
+1
+1
+AJ_2025_Library
+MountingHole_Eurorack2
+Mounting Hole 6.5mm, no annular
+mounting hole 6.5mm no annular
+0
+1
+1
+AJ_2025_Library
+MountingHole_Eurorack3
+Mounting Hole 6.5mm, no annular
+mounting hole 6.5mm no annular
+0
+1
+1
+AJ_2025_Library
+PJRAS2X2S01AUX_RCA
+
+
+0
+8
+8
+AJ_2025_Library
+R_0805_AJ
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
 AJ_2025_Library
 TDA1308_PCB
 
@@ -6,6 +146,13 @@ TDA1308_PCB
 0
 8
 8
+AJ_2025_Library
+Untitled
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
