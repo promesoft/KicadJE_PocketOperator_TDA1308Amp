@@ -1,4 +1,4 @@
-26751861633132361
+26758918383302242
 AJ_2025_Library
 2x08 IDC Eurorack_AJ
 Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
@@ -126,6 +126,20 @@ mounting hole 6.5mm no annular
 1
 1
 AJ_2025_Library
+OPERATOR_25mm
+
+
+0
+0
+0
+AJ_2025_Library
+OPERATOR_LOGO
+
+
+0
+0
+0
+AJ_2025_Library
 PJRAS2X2S01AUX_RCA
 
 
@@ -146,6 +160,20 @@ TDA1308_PCB
 0
 8
 8
+AJ_2025_Library
+TE_Side_45mm
+
+
+0
+0
+0
+AJ_2025_Library
+TE_Side_logo
+
+
+0
+0
+0
 AJ_2025_Library
 Untitled
 
