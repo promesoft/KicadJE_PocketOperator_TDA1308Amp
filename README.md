@@ -20,6 +20,6 @@ TDA1308 based headphone power amp for Teenage Engineering PO series
 # Pictures
 ![](KicadJE_PocketOperator_Amp/PO_AMP_1.jpg)
 ![](KicadJE_PocketOperator_Amp/TE-PO-pict.jpg)
-
+![](pocketoperator2.jpg)
 Components:
 https://www.aliexpress.com/item/1005007083484555.html
