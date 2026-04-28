@@ -2,6 +2,8 @@
 TDA1308 based headphone power amp for Teenage Engineering PO series
 
 # Version - REV A1
+Tested Working - multi channel input
+Not tested - sync
 
 # Kicad 9
 
